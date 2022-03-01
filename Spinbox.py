@@ -21,9 +21,9 @@ def executar2():
 def executar3():
     print(s3.get())
 
-cmd1 = Button(root, text="Clique", command=executar1)
-cmd2 = Button(root, text="Clique", command=executar2)
-cmd3 = Button(root, text="Clique", command=executar3)
+cmd1 = Button(root, text="Botão 1", command=executar1)
+cmd2 = Button(root, text="Botão 2", command=executar2)
+cmd3 = Button(root, text="Botão 3", command=executar3)
 cmd1.pack()
 cmd2.pack()
 cmd3.pack()
